@@ -1,0 +1,1 @@
+﻿Get-ADPrincipalGroupMembership UserName | select name | export-csv "UNC"

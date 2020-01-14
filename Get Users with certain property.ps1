@@ -1,0 +1,1 @@
+﻿Get-ADUser -Filter 'UserPrincipalName -like "*@Something.com"' | Export-Csv UNC
